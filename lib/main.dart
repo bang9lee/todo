@@ -193,7 +193,7 @@ class _TodoScreenState extends State<TodoScreen> {
       floatingActionButton: FloatingActionButton(
         backgroundColor: const Color.fromARGB(255, 4, 0, 255),
         onPressed: () => _showBottomSheet(),
-        shape: const CircleBorder(), // 완전 동그란 모양으로 설정
+        shape: const CircleBorder(), 
         child: const Icon(Icons.add, color: Colors.white),
       ),
     );
